@@ -9,3 +9,7 @@ let color = prompt("Inserisci il tuo colore preferito");
 
 // Creata la variabile "number"
 let number = 23;
+
+// Concatenate le variabili 
+document.getElementById("password").innerHTML = `${document.getElementById("password").innerHTML}${name}${surname}${color}${number}`
+console.log(document.getElementById("password").innerHTML1)
