@@ -15,5 +15,5 @@ const number = 23;
 console.log(number)
 
 // Concatenate le variabili 
-document.getElementById("password").innerHTML = `${document.getElementById("password").innerHTML}${name}${surname}${color}${number}`;
+document.getElementById("password").innerHTML = `${name}${surname}${color}${number}`;
 console.log(document.getElementById("password").innerHTML);
