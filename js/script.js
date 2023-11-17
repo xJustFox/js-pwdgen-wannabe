@@ -8,7 +8,7 @@ let surname = prompt("Inserisci il tuo cognome");
 let color = prompt("Inserisci il tuo colore preferito");
 
 // Creata la variabile "number"
-let number = 23;
+const number = 23;
 
 // Concatenate le variabili 
 document.getElementById("password").innerHTML = `${document.getElementById("password").innerHTML}${name}${surname}${color}${number}`
