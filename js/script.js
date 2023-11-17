@@ -1,18 +1,21 @@
 // Creata variabile "name"
 let name = prompt("Inserisci il tuo nome");
-console.log(name)
+document.getElementById("name").innerHTML = name;
+console.log(document.getElementById("name").innerHTML);
 
 // Creata variabile "surname"
 let surname = prompt("Inserisci il tuo cognome");
-console.log(surname)
+document.getElementById("surname").innerHTML = surname;
+console.log(surname);
 
 // Creata variabile "color"
 let color = prompt("Inserisci il tuo colore preferito");
-console.log(color)
+document.getElementById("color").innerHTML = color;
+console.log(color);
 
 // Creata la variabile "number"
 const number = 23;
-console.log(number)
+console.log(number);
 
 // Concatenate le variabili 
 document.getElementById("password").innerHTML = `${name}${surname}${color}${number}`;
